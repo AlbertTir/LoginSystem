@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login System</title>
+		<link rel="stylesheet" type="text/css" href="style.css">		
+		<script type="text/javascript" src="global.js"></script>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="jqueryui.js"></script>
+		<script type="text/javascript" src="function.js"></script>
+		<script type="text/javascript" src="java.js"></script>
+	</head>
+	
+	<body>
+		
+		
+		<div id="loginDiv">
+			<h2>Login</h2>
+
+			
+			<table class="loginForm">
+				<tr>
+					<td> 
+						<b>Username:</b>
+					</td>
+					
+					<td>
+						<input id="usernameText" type="text" placeholder="Username">
+					</td>
+				</tr>
+				
+				<tr>
+					<td> 
+						<b>Password:</b>
+					</td>
+					
+					<td>
+						<input id="passwordText" type="text" placeholder="Password">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<input id="registerButton" type="button" value="Register">
+					</td>
+					
+					<td>
+						<input id="submitButton" type="button" value="Submit">
+					</td>
+				</tr>
+			</table>
+			
+			<div class="registration">
+				<h2>Registration</h2>
+				
+				<table class="loginForm">
+					<tr>
+						<td> 
+							<b>Username:</b>
+						</td>
+						
+						<td>
+							<input id="usernameReg" type="text" placeholder="Enter your username">
+						</td>
+					</tr>
+					
+					<tr>
+						<td> 
+							<b>Password:</b>
+						</td>
+						
+						<td>
+							<input id="passwordReg" type="text" placeholder="Enter your password">
+						</td>
+					</tr>
+					
+					<tr>
+						<td></td>
+						
+						<td>
+							<input id="registerRegButton" type="button" value="Register">
+						</td>
+					</tr>
+				</table>
+				
+				<div id="errorMessageRegDiv"></div>
+				
+			</div>
+		</div>
+		
+		<div id="center" class="center">
+			<h2>
+				<div id="emptySpace">
+					<input id="logoutButton" type="button" value="Logout">
+					<input id="deleteUserButton" type="button" value="Remove">
+					<input id="checkButton" type="button" value="Check">
+					<input id="spawnButton" type="button" value="Spawn">
+				</div>
+			</h2>
+			<h1>Member's Area</h1>
+			
+			<div class="userListDiv">
+				<input id='' class='userListCheckbox' type='checkbox' value="Mike">Mike<br>
+				
+				<select id="usersMultiple" multiple>
+					<!-- empty space for appending options of usernames later on when the page actually loads -->
+				</select>
+			</div>
+			
+			
+		</div>
+
+	</body>
+
+
+</html>
